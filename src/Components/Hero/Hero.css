@@ -1,0 +1,134 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  
+}
+
+.hero img {
+  margin-top: 50px;
+  height: 400px;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  background: linear-gradient(267deg, #DA7C25 10%, #B923E1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action,
+.hero-action2 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-linkdin,
+.hero-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 10%, #B923E1 100%);
+  cursor: pointer;
+}
+
+.hero-linkdin:hover,
+.hero-connect:hover {
+  border: 2px solid white;
+}
+
+.hero-github,
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.hero-github:hover,
+.hero-resume:hover {
+  border: 2px solid #B923E1;
+}
+
+/* 🟢 MOBILE FIXES 🟢 */
+@media (max-width: 700px) {
+  .hero {
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  padding: 40px 20px;
+  
+  
+  }
+
+  .hero img {
+    margin-top: 60px;
+    width: 100%; /* reasonable image width */
+  }
+
+  .hero h1 {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .hero p {
+    width: 90%;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0;
+  }
+
+  .hero-action,
+  .hero-action2 {
+    flex-direction: column; /* stack buttons vertically */
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+
+  .hero-connect,
+  .hero-linkdin {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
+
+  .hero-resume,
+  .hero-github {
+    padding: 20px 50px;
+    border-radius: 40px;
+  }
+.hero-linkdin:active,
+.hero-connect:active {
+  border: 2px solid white;
+  transform: scale(0.97); /* slight shrink for "pressed" effect */
+}
+
+.hero-github:active,
+.hero-resume:active {
+  border: 2px solid #B923E1;
+  transform: scale(0.97);
+}
+  
+
+}

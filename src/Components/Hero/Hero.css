@@ -68,7 +68,7 @@
   border: 2px solid #B923E1;
 }
 
-/* 🟢 MOBILE FIXES 🟢 */
+
 @media (max-width: 700px) {
   .hero {
    display: flex;

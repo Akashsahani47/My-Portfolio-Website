@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   
-  const resumeLink = 'https://drive.google.com/file/d/1s6S2ITGGcNsmywP1S3_NEMcX38RlE3eb/view?usp=sharing';
+  const resumeLink = 'https://drive.google.com/file/d/1zAAtEz7x-8L4o2FIEIqUB0KIb5qp2-t7/view?usp=sharing';
   const githubLink = 'https://github.com/Akashsahani47';
   const linkedinLink = 'https://www.linkedin.com/in/akash-kumar-3a7928222/';
 

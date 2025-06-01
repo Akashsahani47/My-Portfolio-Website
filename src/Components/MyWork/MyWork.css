@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .mywork-container {
     grid-template-columns: 1fr; 
   }

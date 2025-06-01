@@ -9,9 +9,10 @@ body {
   background-color: #161513;
   color: white;
   font-family: 'outfit';
-  overflow: auto; 
-  scrollbar-width: none; 
-  -ms-overflow-style: none; 
+  overflow-x: hidden; /* Stop horizontal scrolling */
+  overflow-y: auto;   /* Allow vertical scrolling */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {

@@ -86,11 +86,10 @@ transition: 0.3s;
     font-size: 18px;
     max-width: 100%;
   }
-.footer-top-left h1{
+   .footer-top-left h1{
+    margin-left: 90px;
+   }
 
- position: relative;
-  left: 89px;
-}
 
   .footer-top-right {
     flex-direction: column;

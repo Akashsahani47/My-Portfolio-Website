@@ -151,7 +151,7 @@ transform: 0.5s;
 
   .about-skill p {
     font-size: 18px;
-    min-width: 120px;
+    min-width: 100px;
   }
 
   .about-achievements {

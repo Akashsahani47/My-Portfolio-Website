@@ -93,7 +93,7 @@ background-clip: text;
   }
 
   .services-container {
-    grid-template-columns: 1fr; /* single column for mobile */
+    grid-template-columns: 1fr; 
     gap: 20px;
   }
 

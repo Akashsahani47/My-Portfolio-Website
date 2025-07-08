@@ -25,8 +25,8 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      
       alert("Email sent Successfully")
+     event.target.reset();
     }
   };
   return (
